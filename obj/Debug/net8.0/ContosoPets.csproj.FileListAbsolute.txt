@@ -1,0 +1,14 @@
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\bin\Debug\net8.0\ContosoPets.exe
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\bin\Debug\net8.0\ContosoPets.deps.json
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\bin\Debug\net8.0\ContosoPets.runtimeconfig.json
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\bin\Debug\net8.0\ContosoPets.dll
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\bin\Debug\net8.0\ContosoPets.pdb
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.GeneratedMSBuildEditorConfig.editorconfig
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.AssemblyInfoInputs.cache
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.AssemblyInfo.cs
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.csproj.CoreCompileInputs.cache
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.dll
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\refint\ContosoPets.dll
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.pdb
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ContosoPets.genruntimeconfig.cache
+C:\B\God\C# (Microsoft)\Projects\ContosoPets\obj\Debug\net8.0\ref\ContosoPets.dll
