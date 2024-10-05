@@ -105,6 +105,8 @@ do
     // pause code execution
     // readResult = Console.ReadLine();
 
+    int currentPet = 0;
+
     switch (menuSelection)
     {
         case "1":
@@ -279,7 +281,7 @@ do
         case "3":
             // Ensure animal ages and physical descriptions are complete
 
-            int currentPet = 0;
+            currentPet = 0;
 
             do
             {
@@ -337,7 +339,58 @@ do
 
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+
+            currentPet = 0;
+
+            do
+            {
+                if (ourAnimals[currentPet, 0] != "ID #: ")
+                {
+                    if (ourAnimals[currentPet, 3] == "Nickname: ")
+                    {
+                        bool isValid = false;
+
+                        do
+                        {
+                            Console.WriteLine($"Enter a nickname for {ourAnimals[currentPet, 0]}");
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null)
+                            {
+                                if (readResult.Trim() != "")
+                                {
+                                    ourAnimals[currentPet, 3] = $"Nickname: {readResult}"; 
+                                    isValid = true;
+                                }
+                            }
+                        } while (!isValid);
+                    }
+
+                    if (ourAnimals[currentPet, 5] == "Personality: ")
+                    {
+                        bool isValid = false;
+
+                        do
+                        {
+                            Console.WriteLine($"Enter a personality description for {ourAnimals[currentPet, 0]}");
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null)
+                            {
+                                if (readResult.Trim() != "")
+                                {
+                                    ourAnimals[currentPet, 5] = $"Personality: {readResult}";
+                                    isValid = true;
+                                }
+                            }
+                        } while (!isValid);
+                    }
+                }
+
+                currentPet++;
+            } while (currentPet < maxPets);
+
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
